@@ -1,0 +1,109 @@
+.end {
+  margin: 100px 100px;
+}
+
+h2 {
+  margin: 50px 50px;
+  display: inline-block;
+}
+
+p {
+  margin: 0 0;
+}
+
+.div-9a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+}
+
+.div-9b {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.div-9c {
+  width: 250px;
+  height: 60px;
+  border-color: rgb(196, 191, 191);
+  border-width: 1px;
+  border-style: solid;
+  padding: 20px 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text-9c {
+  font-family: arial;
+  margin-bottom: 15px;
+}
+
+.response-9c {
+
+}
+
+.div-9d {
+  width: 330px;
+  height: 70px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: arial;
+  padding: 15px 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title-9d {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.text-9d {
+  font-size: 15px;
+  color: rgb(134, 134, 134);
+}
+
+.div-9e {
+  width: 400px;
+  padding: 15px 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.spec-subtitle {
+  display: block;
+}
+
+.cat-9e {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: 50%;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.tweet-input-9e {
+  font-size: 16px;
+  width: 250px;
+  border: none;
+  margin: 5px 5px; 
+}
+
+.tweet-button-9e {
+  background-color: rgb(141, 141, 245);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
