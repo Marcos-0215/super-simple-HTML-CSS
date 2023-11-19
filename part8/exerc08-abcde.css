@@ -1,0 +1,121 @@
+h2 {
+  margin: 50px 50px;
+}
+
+.end {
+  margin: 100px 100px;
+}
+
+.name-textbox-8a {
+  Display: block;
+  margin-bottom: 5px;
+}
+
+.email-textbox-8a {
+  Display: block;
+  margin-bottom: 5px;
+}
+
+.text-8b {
+  font-size: 20px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.response-button-8b {
+  font-size: 18px;
+}
+
+.google-logo-8c {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+}
+
+.search-bar-8c {
+  display: block;
+  font-size: 15px;
+  width: 440px;
+  padding: 10px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.names-8d {
+  font-size: 16px;
+  padding: 10px 12px;
+  width: 120px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgba(201, 189, 189, 0.5);
+  border-style: solid;
+  margin-bottom: 10px; 
+}
+
+.email-8d {
+  display: block;
+  font-size: 16px;
+  padding: 10px 12px;
+  width: 272px;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgba(201, 189, 189, 0.5);
+  border-style: solid;
+  margin-bottom: 10px; 
+}
+
+.signup-8d {
+  display: block;
+  font-size: 18px;
+  padding: 12px 12px;
+  width: 298px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(130, 130, 231);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.enter-8e {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 8px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 3px;
+  padding: 15px 20px;
+  width: 350px;
+  
+}
+
+.request-button-8e {
+  font-size: 15px;
+  margin-bottom: 8px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 22px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.schedule-button-8e {
+  font-size: 15px;
+  margin-bottom: 8px;
+  background-color: rgb(245, 245, 245);
+  color: black;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 22px;
+  cursor: pointer;
+}
