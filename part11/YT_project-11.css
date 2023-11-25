@@ -1,0 +1,52 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 50px;
+}
+
+.video-unit {
+
+}
+
+.thumb-video {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.details-video {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+}
+
+.channel-video {
+  width: 100%;
+  border-radius: 18px;
+  margin-top: 8px;
+}
+
+.description {
+  margin-left: 10px;
+  margin-top: 8px;
+}
+
+.title-video {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.channel-name {
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 4px;
+}
+
+.stats-video {
+  font-family: roboto;
+  font-size: 14px;
+  color: rgb(71, 71, 71);
+}
