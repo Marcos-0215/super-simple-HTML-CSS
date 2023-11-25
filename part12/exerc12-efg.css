@@ -1,0 +1,84 @@
+body {
+  padding-bottom: 300px;
+}
+
+.flex-e {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(202, 196, 196);
+  border-radius: 5px;
+  width: 350px;
+  height: 110px;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-bottom: 100px;
+}
+
+.type-e {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name-e {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.number-e {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(158, 88, 223);
+  padding: 2px 12px;
+  border-radius: 14px;
+}
+
+.flex-f {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(131, 94, 167);
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.left-section-f {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.middle-section-f {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.right-section-f {
+  padding-right: 10px;
+}
+
+.searchbar {
+  width: 400px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+.download {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  border-style:solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 8px 14px;
+  
+}
