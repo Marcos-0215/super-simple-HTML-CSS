@@ -1,0 +1,139 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.left-section {
+  display: flex;
+  gap: 30px;
+  padding-left: 30px;
+}
+
+.hamb-menu {
+  width: 25px;
+  cursor: pointer;
+}
+
+.YT-logo {
+  width: 90px;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  margin-left: 80px;
+  margin-right: 80px;
+  max-width: 600px;
+}
+
+.searchbar {
+  border-color: rgb(207, 204, 204);
+  font-family: Roboto;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.05);
+  padding-left: 10px;
+  box-sizing: border-box;
+  height: 36px;
+  flex-grow: 1;
+  width: 0;
+}
+
+.searchbar::placeholder {
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+.search-button,
+.voice-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button {
+  border-color: rgb(207, 204, 204);
+  border-style: solid;
+  border-width: 1px;
+  width: 60px;
+  text-align: center;
+  background-color: rgb(238, 235, 235);
+  box-sizing: border-box;
+  height: 36px;
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+.search-button .tooltip,
+.voice-button .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip {
+  opacity: 1;
+}
+
+.search-icon {
+  width: 22px;
+
+}
+
+.voice-button {
+  border: none;
+  background-color: rgb(238, 235, 235);
+  border-radius: 25px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  margin-left: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.voice-icon {
+  width: 22px;
+}
+
+.right-section {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+
+.upload-icon,
+.apps-icon,
+.notifications-icon {
+  width: 22px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
