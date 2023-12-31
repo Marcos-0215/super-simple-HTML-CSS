@@ -1,0 +1,46 @@
+body {
+  height: 3000px;
+
+}
+
+.element-14a {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.sidebar-14b {
+  background-color: green;
+  color: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+
+}
+
+.overlay-14d {
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-14d {
+  background-color: white;
+  width: 400px;
+  height: 150px;
+  padding: 6px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: arial;
+}
+
