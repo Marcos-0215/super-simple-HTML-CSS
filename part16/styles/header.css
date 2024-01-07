@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 57px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
@@ -15,25 +15,28 @@
 .left-section {
   display: flex;
   gap: 30px;
-  padding-left: 30px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .hamb-menu {
-  width: 25px;
+  height: 24px;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 .YT-logo {
-  width: 90px;
+  height: 20px;
+  vertical-align: middle;
   cursor: pointer;
 }
 
 .middle-section {
   display: flex;
   flex: 1;
-  margin-left: 80px;
-  margin-right: 80px;
-  max-width: 600px;
+  margin-left: 40px;
+  margin-right: 40px;
+  max-width: 500px;
 }
 
 .searchbar {
@@ -43,10 +46,10 @@
   border-style: solid;
   border-width: 1px;
   border-radius: 2px;
-  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.05);
   padding-left: 10px;
   box-sizing: border-box;
-  height: 36px;
+  height: 38px;
   flex-grow: 1;
   width: 0;
 }
@@ -57,7 +60,8 @@
 }
 
 .search-button,
-.voice-button {
+.voice-button,
+.tooltip-container {
   position: relative;
   display: flex;
   align-items: center;
@@ -72,20 +76,22 @@
   text-align: center;
   background-color: rgb(238, 235, 235);
   box-sizing: border-box;
-  height: 36px;
+  height: 38px;
   margin-left: -1px;
   cursor: pointer;
 }
 
 .search-button .tooltip,
-.voice-button .tooltip {
+.voice-button .tooltip,
+.tooltip-container .tooltip {
+  font-family: roboto, arial;
   position: absolute;
   background-color: gray;
   color: white;
-  padding: 4px 8px;
+  padding: 8px 8px;
   border-radius: 2px;
   font-size: 12px;
-  bottom: -30px;
+  bottom: -50px;
   opacity: 0;
   transition: opacity 0.15s;
   pointer-events: none;
@@ -93,8 +99,9 @@
 }
 
 .search-button:hover .tooltip,
-.voice-button:hover .tooltip {
-  opacity: 1;
+.voice-button:hover .tooltip,
+.tooltip-container:hover .tooltip {
+  opacity: 0.9;
 }
 
 .search-icon {
@@ -120,16 +127,38 @@
 
 .right-section {
   display: flex;
-  gap: 22px;
+  gap: 24px;
   align-items: center;
+  padding-right: 20px;
 }
 
 .upload-icon,
 .apps-icon,
 .notifications-icon {
-  width: 22px;
+  width: 24px;
   cursor: pointer;
 }
+
+.tooltip-container .notification-count {
+  font-family: roboto, arial;
+  position: absolute;
+  background-color: red;
+  color: white;
+  box-sizing:border-box;
+  height: 17px;
+  width: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 10px;
+  top: -4px;
+  right: -6px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
 
 .profile-pic {
   width: 30px;
